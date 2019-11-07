@@ -29,12 +29,12 @@ fs.readdir("./commands/", (err, files) => {
 
 client.on("ready", () => {
 console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity(client.guilds.size + " Servers!" , {type:"LISTENING", url:"https://discordapp.com/"})
+  client.user.setActivity(client.guilds.size + " Servers!" , {type:"LISTENING", url:"https://discordapp.com/"})//you can change this!
   });
 
 client.on('message', async (msg, message, channel) => {
   
-  if (msg.content === '/ping') {
+  if (msg.content === '/ping') { //you Must change the prefix behind ping to your prefix!
   msg.reply('Ping?').then(m => m.edit(`${msg.author}, Pong! Latency is ${m.createdTimestamp - msg.createdTimestamp}ms. API Latency is ${Math.round(client.ping)} ms`))
   }
   
@@ -48,7 +48,7 @@ client.on('message', async (msg, message, channel) => {
 });
 
 client.on("message", (message, args) => {
-    if (message.content.startsWith("/ban")) {
+    if (message.content.startsWith("/ban")) { //you Must change the prefix behind ban to your prefix!
 
         // Easy way to get member object though mentions.
         var member = message.mentions.members.first();
@@ -61,7 +61,7 @@ client.on("message", (message, args) => {
            message.channel.send("Error:\n```fix\n" + error + "\n```");
         });
     }
- if (message.content.startsWith("/kick")) {
+ if (message.content.startsWith("/kick")) { //you Must change the prefix behind kick to your prefix!
         // Easy way to get member object though mentions.
         var member = message.mentions.members.first();
         // ban
