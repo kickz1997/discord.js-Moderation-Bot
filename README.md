@@ -1,7 +1,7 @@
 # discord.js-Moderation-Bot
 
 This is an Open Source Discord Bot for learning how to code your own discord bot is discord.js.
-<li>First go to httpos://glitch.com/</li>
+<li>First go to https://glitch.com/</li>
 <li>Then, Delete everything excpet server.js and package.json!</li>
 <li>Then, click new file and type config.json</li>
 <li>Then, follow the code!</li>
