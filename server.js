@@ -1,4 +1,4 @@
-onst Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 const { prefix, config, token } = require('./config.json');
 const Enmap = require('enmap');
