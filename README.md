@@ -1,6 +1,6 @@
 # discord.js-Moderation-Bot
 
-This is an Open Source for learning how to code your own discord bot is discord.js
+This is an Open Source Discord Bot for learning how to code your own discord bot is discord.js
 
 Here is all the commands that are offered in this:
 <li>botinfo</li>
