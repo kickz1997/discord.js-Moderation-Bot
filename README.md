@@ -23,5 +23,6 @@ If you do the help command it will show you all the commands!
 ---------------------------
 ## Thank you for taking the time to look at the GitHub Repo! If you would like to contact me! here is my discord server!
 <li>https://discord.gg/bv6gaxq</li>
-## Friend's Server!
+
+### Friend's Server!
 <li>https://discord.gg/QA9ZXpV</li>
