@@ -1,5 +1,5 @@
 {
-  "token": "Your bot token here!"
-  "prefix": "The prefix for your bot here!"
+  "token": "Your bot token here!",
+  "prefix": "The prefix for your bot here!",
   "botowner": "Your Discord User ID here!"
 }
