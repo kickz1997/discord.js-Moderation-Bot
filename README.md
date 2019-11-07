@@ -6,7 +6,7 @@ This is an Open Source Discord Bot for learning how to code your own discord bot
 <li>Then, click new file and type config.json</li>
 <li>Then, follow the code!</li>
 
-Here is all the commands that are offered in this:
+#### Here is all the commands that are offered in this:
 <li>botinfo</li>
 <li>dm</li>
 <li>eval</li>
