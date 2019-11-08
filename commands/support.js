@@ -8,7 +8,7 @@ module.exports.run = async (client, message, msg, args) => {
   let member = message.author
   
   let something = new Discord.RichEmbed()
-  .setTitle("Invite for the bot!")
+  .setTitle("Support Server Invite!")
   .setColor("RANDOM")
   .setDescription("This command sends you a dm with the support server invite")
   .addField("Here is the invite to the Support Server!", "Support link")
