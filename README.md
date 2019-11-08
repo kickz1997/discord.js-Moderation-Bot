@@ -25,7 +25,7 @@ This is an Open Source Discord Bot for learning how to code your own discord bot
 If you do the help command it will show you all the commands!
 
 ---------------------------
-## Thank you for taking the time to look at the GitHub Repo! If you would like to contact me! here is my discord server!
+## Thank you for taking the time to look at the GitHub Repo! If you would like to contact me! Here is my discord servers!
 <li>https://discord.gg/bv6gaxq</li>
 <li>https://invite.gg/ics</li>
 
