@@ -29,5 +29,5 @@ If you do the help command, it will show you all the commands in the bot!
 <li>https://discord.gg/bv6gaxq</li>
 <li>https://invite.gg/ics</li>
 
-### Friend's Server!
+### DeathHound6's Server!
 <li>https://discord.gg/QA9ZXpV</li>
