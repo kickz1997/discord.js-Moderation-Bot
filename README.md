@@ -24,7 +24,7 @@ This is an open-source Discord Bot that you can use to learn how to code your ow
 <li>Then, go to https://dashboard.heroku.com/apps/YourAppName/deploy/github (Replace the `YourAppName` with your actual app's name)</li>
 <li>Finally, in the `Automatic deploys` section, click `Enable Automatic Deploys`</li>
 
-# Here is all the commands that are offered in this:
+# Here is all the commands that are offered in the bot:
 <li>botinfo</li>
 <li>dm</li>
 <li>eval</li>
