@@ -19,7 +19,3 @@ exports.run = async (client, message, args, color, prefix) => {
     }
     }
 }
-
-module.exports.help = {
-    "name": "eval"
-    } 
