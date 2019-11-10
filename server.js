@@ -96,4 +96,4 @@ let commandfile = client.commands.get(cmd.slice(prefix.length));
 if (commandfile) commandfile.run(client, message, args);
 });
 
-client.login(token);
+client.login(process.env.TOKEN);
