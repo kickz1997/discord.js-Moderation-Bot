@@ -5,7 +5,7 @@ This is an open-source Discord Bot that you can use to learn how to code your ow
 # The Setup
 
 ## Glitch.com Hosting
-Glitch applications can no longer be kept awake for free making glitch hosting unsuitable for hosting. More info can be found [here](https://support.glitch.com/t/an-update-on-pinging-services-glitch/27311.)
+Glitch applications can no longer be kept awake for free making glitch hosting unsuitable. More info can be found [here](https://support.glitch.com/t/an-update-on-pinging-services-glitch/27311.)
 
 ## Heroku Hosting
 <li>First go to https://dashboard.heroku.com</li>
