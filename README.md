@@ -5,14 +5,7 @@ This is an open-source Discord Bot that you can use to learn how to code your ow
 # The Setup
 
 ## Glitch.com Hosting
-<li>First go to https://glitch.com/</li>
-<li>Then, sign-in or make an account</li>
-<li>Then, create a new project of type `hello-express`</li>
-<li>Then, go to the bottom left of the page and click `tools`</li>
-<li>Then, click  `Git, Import, and Export`</li>
-<li>Then, sign-in or create a new Github account</li>
-<li>Then, click `Import from Github`</li>
-<li>Finally, in the popup type in `kickz1997/discord.js-Moderation-Bot` and click ok</li>
+Glitch applications can no longer be kept awake for free making glitch hosting unsuitable for hosting. More info can be found [here](https://support.glitch.com/t/an-update-on-pinging-services-glitch/27311.)
 
 ## Heroku Hosting
 <li>First go to https://dashboard.heroku.com</li>
