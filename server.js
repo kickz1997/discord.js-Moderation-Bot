@@ -35,23 +35,13 @@ client.on('ready', () => {
   client.user.setActivity(whatever status you want here! + " Users!" , {type: 'WATCHING', url: "https://twitch.tv/kickz19"}) // good. check the bot works //Why are you messing with it lol
 });
 
-client.on('message', async (msg, message, channel) => {
-  
-  if (msg.content === '/ping') { //remember to change the prefix
-  msg.reply('Ping?').then(m => m.edit(`${msg.author}, Pong! Latency is ${m.createdTimestamp - msg.createdTimestamp}ms. API Latency is ${Math.round(client.ping)} ms`))
-  }
-  
-  // if (msg.content === './<command>') {
- // code here
-// }
-      
-  
-  
-  
-});
 
 client.on("message", (message, args) => {
-    if (message.content.startsWith("/ban")) {//remember to change the prefix
+  if (!message.content.startsWith(prefix)) {
+         if (msg.content === '/ping') { //remember to change the prefix
+          message.reply('Ping?').then(m => m.edit(`${msg.author}, Pong! Latency is ${m.createdTimestamp - msg.createdTimestamp}ms. API Latency is ${Math.round(client.ping)} ms`))
+        }
+        if (message.content.startsWith("/ban")) {//remember to change the prefix
 
         // Easy way to get member object though mentions.
         var member = message.mentions.members.first();
@@ -76,24 +66,16 @@ client.on("message", (message, args) => {
             message.channel.send("Error:\n```fix\n" + error + "\n```");
         });
     }
+  } else {
+      if (message.author.bot) return;
+      if (message.channel.dm === "dm") return;
+      let messageArray = message.content.split(" ");
+      let cmd = messageArray[0];
+      let args = messageArray.slice(1);
+      if (!message.content.startsWith(prefix)) return;
+      let commandfile = client.commands.get(cmd.slice(prefix.length));
+      if (commandfile) commandfile.run(client, message, args);
+  }
 }); //that is the right code why it not working
-
-
-
-client.on("message", async message => {
-    
-  if (message.author.bot) return;
-  //disable DM
-  if (message.channel.dm === "dm") return;
-  
-//variables to work bot
-let messageArray = message.content.split(" ");
-let cmd = messageArray[0];
-let args = messageArray.slice(1);
-
-if (!message.content.startsWith(prefix)) return;
-let commandfile = client.commands.get(cmd.slice(prefix.length));
-if (commandfile) commandfile.run(client, message, args);
-});
 
 client.login(process.env.TOKEN);
